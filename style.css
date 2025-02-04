@@ -21,6 +21,7 @@ body {
     justify-content: space-evenly;
     border-radius: 20px;
     background-color: black;
+    box-shadow: 2px 2px 87px 4px #060606;
 }
 
 .btn {
