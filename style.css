@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #7e7373;
+}
+
+.main {
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:active {
+    background-color: grey;
+}
+
+#clearbtn {
+    background-color: rgb(243, 84, 84);
+    ;
+}
+
+#clearbtn:active {
+    background-color: rgb(214, 64, 64);
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.display {
+    height: 60px;
+    width: 255px;
+    font-size: 50px;
+    overflow: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.opr {
+    background-color: #f2aa26;
+}
+
+.num {
+    background-color: #554d4d;
+}
+
+
+/* Style for webkit browsers (Chrome, Safari) */
+
+::-webkit-scrollbar {
+    width: 6px;
+    /* Adjust the width of the scrollbar */
+    height: 6px;
+    /* Adjust the height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(79, 77, 77);
+    /* Set the color of the scrollbar thumb */
+    border-radius: 10px;
+    cursor: pointer;
+    /* Optional: round the edges of the thumb */
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #000000;
+    /* Set the background color of the track */
+}
